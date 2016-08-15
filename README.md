@@ -2,10 +2,12 @@
 
 This script will periodically poll the system for various resource statistics and log it to a file.
 
-## Running
+## Install
+
+It'd be best to install this in a virtual environment to prevent polluting the global pip packages.
 
 ```
-$ python resmonlog.py
+$ pip install -r requirements.txt
 ```
 
 ## Help
